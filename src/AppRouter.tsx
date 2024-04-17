@@ -10,15 +10,17 @@ const AppRouter: React.FC<any> = () => {
     <Router>
       <Navbar />
 
-      <Routes>
-        {
-          routes.map((route: IRoute, i: number) => {
-            return (
-              <Route key={i} path={route.path} element={route.component} />
-            );
-          })
-        }
-      </Routes>
+      <div className="container">
+        <Routes>
+          {
+            routes.map((route: IRoute, i: number) => {
+              return (
+                <Route key={i} path={route.path} element={route.component} />
+              );
+            })
+          }
+        </Routes>
+      </div>
     </Router>
   );
 };
