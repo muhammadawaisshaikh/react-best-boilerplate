@@ -1,9 +1,12 @@
 import React from 'react';
+import AllFilms from '../components/AllFilms';
 
 const Home: React.FC<any> = () => {
   return (
     <div>
-      <h1>Home Page</h1>
+      <h3>All Films</h3>
+
+      <AllFilms />
     </div>
   );
 };

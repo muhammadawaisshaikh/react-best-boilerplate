@@ -7,3 +7,5 @@ A highly scalable, foundation with the best developer experience and a focus on 
 - npm run dev
 
 
+## GraphQL sample Instance
+https://studio.apollographql.com/public/star-wars-swapi/variant/current/explorer
